@@ -5,7 +5,7 @@ import time
 import asyncio
 
 
-async def measure_runtime():
+async def measure_runtime() -> float:
     """
     write a measure_runtime coroutine that will execute
     async_comprehension four times in parallel using
