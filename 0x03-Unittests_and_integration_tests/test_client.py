@@ -49,7 +49,7 @@ class TestGithubOrgClient(unittest.TestCase):
             test = GithubOrgClient('google')
             self.assertEqual(
                 test._public_repos_url,
-                "https://api.github.com/orgs/google/repos"
+                "https://api.github.com/users/google/repos"
             )
 
     @patch('client.get_json')
